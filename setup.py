@@ -32,7 +32,7 @@ def parse_markdown_readme():
 
 setup(
     name='version.py',
-    version='0.0.1',
+    version='0.0.2',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://github.com/sheppard/version.py',

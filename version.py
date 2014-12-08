@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import print_function
 
 from PIL import Image, ImageDraw
 import sys
@@ -24,6 +25,6 @@ def run(text_path, image_path, version=None):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print USAGE.strip()
+        print(USAGE.strip())
         exit()
     run(*sys.argv[1:])
